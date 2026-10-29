@@ -1,0 +1,18 @@
+{
+  "name": "gaming-rerank-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/rerank_game_search.ts",
+    "test": "node --experimental-strip-types --test src/rerank_game_search.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^4.56.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.4"
+  }
+}
